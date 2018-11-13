@@ -1,0 +1,20 @@
+type Query {
+    info: String! 
+    meal(id: ID!): Meal 
+    meals: [Meal]
+}
+
+type Mutation {
+    addMeal(name: String, price: Int, review: String, rating: Int): Meal!
+    updateMeal(id: ID!, name: String, price: Int, review: String, rating: Int): Meal
+    deleteMeal(id: ID!): Meal
+}
+
+type Meal {
+    id: ID!
+    name: String!
+    price: Int
+    review: String
+    rating: Int
+}
+
