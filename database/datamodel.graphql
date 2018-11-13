@@ -1,0 +1,8 @@
+type Meal {
+    id: ID! @unique
+    createdAt: DateTime!
+    name: String!
+    price: Int
+    review: String
+    rating: Int
+}

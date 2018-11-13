@@ -1,0 +1,9 @@
+# endpoint for Prisma API
+endpoint: https://eu1.prisma.sh/bianca-jemsten-66166c/meal-tracker-db/dev
+
+# points to the file that holds data model 
+datamodel: datamodel.graphql
+
+#JWT secret
+secret: TESTSECRET
+
